@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
 title: Arin's homepage
-description: Bookmark this to keep an eye on my project updates!
+email: arin.bhandari@gmail.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
