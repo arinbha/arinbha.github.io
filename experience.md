@@ -3,6 +3,27 @@ layout: page
 title: Experience
 permalink: /experience/
 ---
-## Work History
-* Lorem ipsum
-* Lorem ipsum
+
+<div>
+  {% for job in site.data.experience %}
+  <section class="experience-card">
+    <div class="experience-header">
+      {% if job.logo %}
+        <img src="{{ job.logo | relative_url }}" class="company-logo" alt="{{ job.company }} Logo">
+      {% endif %}
+      <div class="experience-title-group">
+        <h3 class="company-name">{{ job.company }}</h3>
+        <p class="job-role">{{ job.role }}</p>
+        <span class="job-date">{{ job.date }}</span>
+      </div>
+    </div>
+    <div class="experience-details">
+      <ul>
+        {% for bullet in job.bullets %}
+          <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endfor %}
+</div>
