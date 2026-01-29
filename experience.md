@@ -35,7 +35,7 @@ permalink: /experience/
 <section class="experience-card">
   <div class="experience-header">
         {% if edu.logo %}
-        <img src="{{ job.logo | relative_url }}" class="company-logo" alt="{{ job.company }} Logo">
+        <img src="{{ edu.logo | relative_url }}" class="company-logo" alt="{{ edu.school }} Logo">
       {% endif %}
     <div class="experience-title-group">
       <h3 class="company-name">{{ edu.school }}</h3>
