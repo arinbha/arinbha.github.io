@@ -27,3 +27,27 @@ permalink: /experience/
   </section>
   {% endfor %}
 </div>
+
+<!-- Education title -->
+<h1 class="section-title">Education</h1>
+
+{% for edu in site.data.education %}
+<section class="experience-card">
+  <div class="experience-header">
+    <div class="experience-title-group">
+      <h3 class="company-name">{{ edu.school }}</h3>
+      <p class="job-role">{{ edu.degree }}</p>
+      <span class="job-date">{{ edu.date }}</span>
+    </div>
+  </div>
+
+  <div class="experience-details">
+    <ul>
+      {% for bullet in edu.bullets %}
+        <li>{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endfor %}
+
