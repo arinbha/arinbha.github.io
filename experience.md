@@ -34,6 +34,9 @@ permalink: /experience/
 {% for edu in site.data.education %}
 <section class="experience-card">
   <div class="experience-header">
+        {% if edu.logo %}
+        <img src="{{ job.logo | relative_url }}" class="company-logo" alt="{{ job.company }} Logo">
+      {% endif %}
     <div class="experience-title-group">
       <h3 class="company-name">{{ edu.school }}</h3>
       <p class="job-role">{{ edu.degree }}</p>
