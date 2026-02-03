@@ -4,4 +4,24 @@ title: Projects
 permalink: /projects/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div>
+  {% for project in site.data.projects %}
+  <section class="experience-card">
+    <div class="experience-header">
+      {% if project.logo %}
+        <img src="{{ project.logo | relative_url }}" class="company-logo" alt="{{ project.name }} Logo">
+      {% endif %}
+      <div class="experience-title-group">
+        <h3 class="company-name">{{ project.name }}</h3>
+      </div>
+    </div>
+    <div class="experience-details">
+      <ul>
+        {% for bullet in project.bullets %}
+          <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endfor %}
+</div>

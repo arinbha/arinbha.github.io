@@ -1,0 +1,19 @@
+- name: "Distributed Bitcoin Miner"
+  bullets:
+    - "Implemented a reliable, in-order messaging protocol over UDP using sliding windows, acknowledgments, checksums, and exponential backoff to tolerate packet loss and reordering"
+    - "Built a distributed Bitcoin mining system on top of the protocol, coordinating parallel workers and detecting node failures via heartbeats and epoch-based timeouts"
+
+- name: "Raft Consensus Algorithm"
+  bullets:
+    - "Implemented the Raft consensus protocol in Go, including leader election, heartbeats, log replication, and commit indexing for a replicated state machine"
+    - "Designed concurrency-safe RPC handlers and background goroutines to ensure correctness under message loss, reordering, and node failures"
+
+- name: "Mixnet (Privacy-Preserving Overlay Network)"
+  bullets:
+    - "Built a privacy-preserving overlay network combining encryption, randomized routing, and batching-based mixing to resist traffic analysis"
+    - "Evaluated system behavior across multiple network topologies using STP convergence time, routing message volume, and end-to-end RTTs on distributed testbeds"
+
+- name: "Garbage Collector"
+  bullets:
+    - "Developed a mark-and-sweep garbage collector assignment for C0, a memory-safe subset of C, supporting reliable memory management for student-written programs"
+    - "Deployed and maintained Autolab autograding infrastructure for CMU's Principles of Imperative Computation course, automating testing and feedback for over 500 students per semester"
