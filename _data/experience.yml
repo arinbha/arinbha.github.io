@@ -1,7 +1,7 @@
 - company: "Amazon"
   role: "Software Developer Engineer Intern"
   date: "May 2025 – Aug 2025"
-  # logo: "/assets/images/amazon_logo.jpg"
+  logo: "/assets/images/amazon_logo.jpg"
   bullets:
     - "Built LLM-driven feature extraction systems to identify rare, high-impact product attributes from 10B+ titles, improving Amazon search relevance."
     - "Engineered automated AWS pipelines to process and extract data from 100B+ SKUs, improving scalability and reliability of large-scale data workflows."
@@ -9,7 +9,7 @@
 - company: "Palantir"
   role: "Palantir Launch Intern"
   date: "Mar 2025 – Mar 2025"
-  # logo: "/assets/images/palantir_logo.jpg"
+  logo: "/assets/images/palantir_logo.jpg"
   bullets:
     - "Chosen as 1 of 40 students nationwide for Palantir's highly-selective Launch program, focusing on real-world applications of data engineering and AI."
     - "Developed a customizable travel-planning application on Palantir Foundry and AI Platform, generating optimized itineraries for 100+ global cities."
@@ -17,7 +17,7 @@
 - company: "AutoNation"
   role: "AI Developer Intern"
   date: "Jun 2024 – Aug 2024"
-  # logo: "/assets/images/autonation_logo.jpg"
+  logo: "/assets/images/autonation_logo.jpg"
   bullets:
     - "Engineered advanced search functionality using AWS Bedrock and OpenSearch, enabling vector embeddings and natural language queries for 300K+ car inventory."
     - "Designed chatbot architecture for customer search tool, partnering with senior engineers to lead a 30% increase in customer engagement."
@@ -25,7 +25,7 @@
 - company: "Carnegie Mellon School of Computer Science"
   role: "Teaching Assistant"
   date: "Jan 2024 – Present"
-  # logo: "/assets/images/cmu_logo.png"
+  logo: "/assets/images/cmu_logo.png"
   bullets:
     - "Led grading sessions and collaborated with over 40 other TAs to host weekly lab sessions for data structures, algorithms, and system design."
     - "Facilitated supplemental review sessions and provided dedicated one-on-one support during office hours for over 500 students a semester."

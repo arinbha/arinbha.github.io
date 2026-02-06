@@ -1,6 +1,6 @@
 - school: Carnegie Mellon University
   degree: B.S. in Computer Science
-  # logo: "/assets/images/cmu.png"
+  logo: "/assets/images/cmu.png"
   date: Aug 2023 – May 2027
   bullets:
     - Concentrations in Computer Systems
@@ -11,7 +11,7 @@
 - school: Hopkins School
   degree: High School Diploma (Cum Laude Honors)
   date: Aug 2019 – Jun 2023
-  # logo: "/assets/images/hopkins.jpg"
+  logo: "/assets/images/hopkins.jpg"
   bullets:
     - US Presidential Scholar Semifinalist
     - National Merit Scholar
