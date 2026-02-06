@@ -4,8 +4,6 @@ title: About
 permalink: /
 ---
 
-# Hi, I'm Arin!
-
 <img src="/assets/images/arin.jpg"
      alt="Photo of Arin Bhandari"
      width="200"
