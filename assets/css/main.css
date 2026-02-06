@@ -732,10 +732,10 @@ table td {
 
 .company-logo {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 100px;
-    height: 100px;
+    top: 0px;
+    right: 0px;
+    width: 75px;
+    height: 75px;
     object-fit: contain;
     background: white;
     padding: 5px;
