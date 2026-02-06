@@ -3,5 +3,16 @@ layout: home
 title: About
 permalink: /
 ---
+
 # Hi, I'm Arin!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<img src="/assets/images/arin.jpg"
+     alt="Photo of Arin Bhandari"
+     width="200"
+     style="border-radius: 8px;" />
+
+Hello! I'm Arin Bhandari, a CS major focusing on computer systems here at Carnegie Mellon University. My areas of interest are distributed systems, data infrastructure, and applied machine learning.
+
+Some of my past projects include implementing consensus protocols, privacy-preserving networks, and data pipelines. Previously, I interned at Amazon and Palantir, and I will be working at Databricks as a summer software engineering intern.
+
+[LinkedIn](https://www.linkedin.com/in/arin-bhandari/)
