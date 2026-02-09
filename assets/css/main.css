@@ -310,8 +310,27 @@ table td {
 
 .site-footer {
     border-top: 1px solid #e8e8e8;
-    padding: 30px 0
+    padding: 2rem 0;
 }
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.footer-right a {
+    font-size: 3rem;
+    color: #666;
+    line-height: 1;
+}
+
 
 .footer-heading {
     font-size: 18px;
@@ -320,8 +339,25 @@ table td {
 
 .contact-list,
 .social-media-list {
-    list-style: none;
-    margin-left: 0
+    display: table;
+    margin: 0 auto;
+
+    li {
+        float: left;
+        min-width: 45px;
+        min-height: 45px;
+        text-align: center;
+        margin: 5px 10px 5px 0;
+
+        &:last-of-type {
+            margin-right: 0
+        }
+
+        a {
+            display: block;
+            padding: 10px 12px;
+        }
+    }
 }
 
 .footer-col-wrapper {

@@ -1,7 +1,14 @@
 title: Arin Bhandari
-email: arin.bhandari AT gmail.com
-
+author:
+  name: Arin Bhandari
+  email: arin.bhandari AT gmail.com
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  social-links:
+    - title: Linkedin
+      icon: linkedin
+      url: "https://www.linkedin.com/in/arin-bhandari"
