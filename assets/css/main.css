@@ -804,3 +804,80 @@ table td {
     margin: 15px 0 0 0;
     padding-left: 1.2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .site-header {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .site-nav {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        z-index: 1001;
+        background-color: #fdfdfd;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: right;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .site-nav input:checked~.trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .post-title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .page-heading {
+        font-size: 26px;
+    }
+
+    .experience-card {
+        padding: 20px;
+    }
+
+    .company-logo {
+        position: static;
+        display: block;
+        margin-bottom: 15px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .experience-title-group {
+        padding-right: 0;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .footer-left,
+    .footer-right {
+        align-items: center;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 12px 10px;
+        margin-left: 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 0;
+    }
+}
