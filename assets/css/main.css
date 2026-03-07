@@ -21,7 +21,7 @@ figure {
 body {
     font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #111;
-    background-color: #ffffff;
+    background-color: #e5e5e5;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -253,67 +253,36 @@ table td {
     line-height: 1.5
 }
 
+.site-nav .page-link {
+    color: #ffffff;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+    text-decoration: none;
+    background-color: rgb(178, 179, 172);
+}
+
+.site-nav .page-link.active {
+    background-color: rgb(58, 58, 56);
+}
+
+.site-title:hover {
+    text-decoration: none !important;
+}
+
+
 .site-nav .page-link:not(:last-child) {
     margin-right: 20px
 }
 
-@media screen and (max-width: 600px) {
-    .site-nav {
-        position: absolute;
-        top: 9px;
-        right: 15px;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
-        border-radius: 5px;
-        text-align: right
-    }
-
-    .site-nav label[for="nav-trigger"] {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 36px;
-        z-index: 2;
-        cursor: pointer
-    }
-
-    .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center
-    }
-
-    .site-nav .menu-icon>svg {
-        fill: #424242
-    }
-
-    .site-nav input~.trigger {
-        clear: both;
-        display: none
-    }
-
-    .site-nav input:checked~.trigger {
-        display: block;
-        padding-bottom: 5px
-    }
-
-    .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px
-    }
-
-    .site-nav .page-link:not(:last-child) {
-        margin-right: 0
-    }
-}
-
 .site-footer {
-    border-top: 1px solid #e8e8e8;
+    border-top: 1px solid #000000;
     padding: 2rem 0;
 }
 
@@ -766,6 +735,7 @@ table td {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
     position: relative;
     transition: transform 0.2s ease;
+    scroll-margin-top: 80px;
 }
 
 .experience-card:hover {
@@ -833,6 +803,75 @@ table td {
 
 .hero-text {
     flex: 2;
+}
+
+.ticker-nav-container {
+    position: fixed;
+    right: 30px;
+    top: 15%;
+    height: 50vh;
+    width: 100px;
+    overflow-y: auto;
+    cursor: grab;
+    scrollbar-width: none;
+    z-index: 100;
+}
+
+.ticker-nav-container::-webkit-scrollbar {
+    display: none;
+}
+
+.ticker-line {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #14213d;
+    z-index: -1;
+}
+
+.ticker-node {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 80px;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.ticker-node:hover {
+    transform: scale(1.1);
+}
+
+.ticker-date {
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.ticker-dot {
+    width: 10px;
+    height: 10px;
+    background: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    right: -21px;
+    top: 25px;
+}
+
+.ticker-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #ddd;
+    object-fit: contain;
+}
+
+.ticker-nav-container:active {
+    cursor: grabbing;
 }
 
 @media screen and (max-width: 600px) {

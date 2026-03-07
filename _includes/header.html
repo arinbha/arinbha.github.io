@@ -1,0 +1,18 @@
+<header class="site-header">
+    <div class="wrapper"><a class="site-title" rel="author" href="/">Arin Bhandari</a>
+        <nav class="site-nav">
+            <input type="checkbox" id="nav-trigger" class="nav-trigger">
+            <label for="nav-trigger">
+            </label>
+            <div class="trigger">
+                {% for item in site.data.navigation %}
+                {% if page.url == item.link %}
+                {% assign active_class = "active" %}
+                {% else %}
+                {% assign active_class = "" %}
+                {% endif %}
+                <a class="page-link {{ active_class }}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
+                {% endfor %}
+        </nav>
+    </div>
+</header>

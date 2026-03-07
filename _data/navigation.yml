@@ -1,8 +1,8 @@
-- name: About
-  link: /
+- name: Education
+  link: /education/
 - name: Experience
   link: /experience/
 - name: Projects
   link: /projects/
 - name: Resume
-  link: /resume/
+  link: ArinBhandariResume.pdf

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "About"
 permalink: /
+nav: false
 ---
 
 <div class="home-hero">
