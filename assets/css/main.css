@@ -875,36 +875,69 @@ table td {
 }
 
 @media screen and (max-width: 600px) {
+
+    .ticker-nav-container,
+    .ticker-line,
+    .ticker-dot {
+        display: none !important;
+    }
+
     .site-header {
         position: relative;
-        z-index: 1000;
     }
 
     .site-nav {
         position: absolute;
         top: 9px;
         right: 15px;
-        z-index: 1001;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
+        background-color: #000;
+        border: 1px solid #424242;
         border-radius: 5px;
-        text-align: right;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        z-index: 1001;
     }
 
-    .site-nav input:checked~.trigger {
+    .site-nav .menu-icon {
         display: block;
-        padding-bottom: 5px;
+        float: right;
+        width: 30px;
+        height: 30px;
+        line-height: 36px;
+        text-align: center;
+        cursor: pointer;
+        padding: 5px;
     }
 
-    .post-title {
-        font-size: 30px;
-        line-height: 1.2;
-    }
-
-    .page-heading {
-        font-size: 26px;
+    .site-nav .trigger {
         display: none;
+        clear: both;
+        text-align: right;
+        padding: 0 10px 10px;
+    }
+
+    .site-nav .nav-trigger:checked~.trigger {
+        display: block;
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 12px 10px;
+        margin-right: 0 !important;
+        border-bottom: 1px solid #333;
+    }
+
+    .site-nav .page-link:last-child {
+        border-bottom: none;
+    }
+
+    .home-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-image {
+        max-width: 250px;
     }
 
     .experience-card {
@@ -913,7 +946,6 @@ table td {
 
     .company-logo {
         position: static;
-        display: block;
         margin-bottom: 15px;
         width: 60px;
         height: 60px;
@@ -925,40 +957,6 @@ table td {
 
     .footer-inner {
         flex-direction: column;
-        text-align: center;
         gap: 1.5rem;
     }
-
-    .footer-left,
-    .footer-right {
-        align-items: center;
-    }
-
-    table {
-        display: block;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .site-nav .page-link {
-        display: block;
-        padding: 12px 10px;
-        margin-left: 20px;
-        border-bottom: 1px solid #eee;
-    }
-
-    .site-nav .page-link:not(:last-child) {
-        margin-right: 0;
-    }
-
-    .home-hero {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .hero-image {
-        max-width: 250px;
-    }
-
 }
