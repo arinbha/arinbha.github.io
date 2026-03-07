@@ -1,14 +1,20 @@
 ---
 layout: home
-title: About
+title: "About"
 permalink: /
 ---
 
-<img src="/assets/images/arin.jpg"
-     alt="Photo of Arin Bhandari"
-     width="200"
-     style="border-radius: 8px;" />
+<div class="home-hero">
+  
+  <div class="hero-image">
+    <img src="/assets/images/arin.jpg" alt="Photo of Arin Bhandari">
+  </div>
 
-Hello! I'm Arin Bhandari, a CS major focusing on computer systems here at Carnegie Mellon University. My areas of interest are distributed systems, data infrastructure, and applied machine learning.
+  <div class="hero-text">
+    <h2>Hi, I'm Arin Bhandari!</h2>
+    I'm a CS major focusing on computer systems here at Carnegie Mellon University. My areas of interest are distributed systems, data infrastructure, and applied machine learning.
 
-Some of my past projects include implementing consensus protocols, privacy-preserving networks, and data pipelines. Previously, I interned at Amazon and Palantir, and I will be interning at Databricks this summer.
+    Some of my past projects include implementing consensus protocols, privacy-preserving networks, and data pipelines. Previously, I interned at Amazon and Palantir, and I will be interning at Databricks this summer.
+  </div>
+
+</div>
