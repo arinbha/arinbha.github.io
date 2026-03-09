@@ -5,7 +5,7 @@
   bullets:
     - "Built LLM-driven feature extraction systems to identify rare, high-impact product attributes from 10B+ titles, improving Amazon search relevance."
     - "Engineered automated AWS pipelines to process and extract data from 100B+ SKUs, improving scalability and reliability of large-scale data workflows."
-
+  tech_stack: ["AWS (Bedrock, Lambda, S3)", "Python", "Java", "LLMs"]
 - company: "Palantir"
   role: "Palantir Launch Intern"
   date: "Mar 2025 – Mar 2025"

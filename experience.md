@@ -23,6 +23,13 @@ permalink: /experience/
           <li>{{ bullet }}</li>
         {% endfor %}
       </ul>
+      {% if job.tech_stack %}
+    <div class="tech-stack-container">
+      {% for tech in job.tech_stack %}
+        <span class="tech-badge">{{ tech }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
     </div>
   </section>
   {% endfor %}

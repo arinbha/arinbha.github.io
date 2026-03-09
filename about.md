@@ -11,10 +11,15 @@ nav: false
   </div>
 
   <div class="hero-text">
-    <h2>Hi, I'm Arin Bhandari!</h2>
-    I'm a CS major focusing on computer systems here at Carnegie Mellon University. My areas of interest are distributed systems, data infrastructure, and applied machine learning.
+    <h2>Hi, I'm Arin!</h2>
+  
+  <p>
+  I am a Computer Science student at Carnegie Mellon University, where I spend most of my time exploring computer systems and applied AI/ML. I am especially interested in how distributed systems and data infrastructure come together to power machine learning at scale.
+  </p>
+  <p>
+  My background includes building core system components such as consensus protocols, privacy-preserving networks, and large-scale data pipelines. I previously interned at Amazon and Palantir, where I focused on backend infrastructure and production-level AI features. More broadly, I am motivated by the challenge of building reliable, high-performance systems for large-scale data processing and distributed computing.
+  </p>
 
-    Some of my past projects include implementing consensus protocols, privacy-preserving networks, and data pipelines. Previously, I interned at Amazon and Palantir, and I will be interning at Databricks this summer.
-  </div>
+ </div>
 
 </div>
