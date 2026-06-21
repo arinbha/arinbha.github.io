@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
+<!--TODO: Add wrapper to link to project details in future-->
 <div>
   {% for project in site.data.projects %}
   <section class="experience-card" id="{{ project.name | slugify }}">
@@ -31,7 +31,6 @@ permalink: /projects/
   <div class="ticker-content">
     {% for project in site.data.projects %}
       <a href="#{{ project.name | slugify }}" class="ticker-node">
-        <div class="ticker-dot"></div>
         <img src="{{ project.logo | relative_url }}" class="ticker-logo" alt="{{ project.name }}">
       </a>
     {% endfor %}

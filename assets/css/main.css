@@ -834,10 +834,10 @@ table td {
     position: fixed;
     right: 30px;
     top: 15%;
-    height: 50vh;
+    height: auto;
+    max-height: 70vh;
     width: 100px;
     overflow-y: auto;
-    cursor: grab;
     scrollbar-width: none;
     z-index: 100;
 }
@@ -849,10 +849,10 @@ table td {
 .ticker-line {
     position: absolute;
     right: 15px;
-    top: 0;
-    bottom: 0;
+    top: 20px;
+    bottom: 20px;
     width: 2px;
-    background: #14213d;
+    background: #000000;
     z-index: -1;
 }
 
@@ -876,16 +876,6 @@ table td {
     margin-bottom: 5px;
 }
 
-.ticker-dot {
-    width: 10px;
-    height: 10px;
-    background: #007bff;
-    border-radius: 50%;
-    position: absolute;
-    right: -21px;
-    top: 25px;
-}
-
 .ticker-logo {
     width: 35px;
     height: 35px;
@@ -897,6 +887,28 @@ table td {
 
 .ticker-nav-container:active {
     cursor: grabbing;
+}
+
+.card-link-wrapper {
+    text-decoration: none !important;
+    display: block;
+    color: inherit;
+}
+
+.card-link-wrapper:hover .experience-card {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    border-color: #2a7ae2;
+}
+
+.card-link-wrapper .experience-details {
+    color: #111;
+}
+
+.ticker-line {
+    right: 17px;
+    top: 18px;
+    bottom: 18px;
 }
 
 @media screen and (max-width: 600px) {

@@ -33,7 +33,6 @@ permalink: /education/
   <div class="ticker-content">
     {% for edu in site.data.education %}
       <a href="#{{ edu.school | slugify }}" class="ticker-node">
-        <div class="ticker-dot"></div>
         <img src="{{ edu.logo | relative_url }}" class="ticker-logo" alt="{{ edu.school }}">
       </a>
     {% endfor %}

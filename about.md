@@ -14,10 +14,10 @@ nav: false
     <h2>Hi, I'm Arin!</h2>
   
   <p>
-  I am a Computer Science student at Carnegie Mellon University, where I spend most of my time exploring computer systems and applied AI/ML. I am especially interested in how distributed systems and data infrastructure come together to power machine learning at scale.
+  I am a Computer Science student at Carnegie Mellon University with a Concentration in Computer Systems. My areas of interest are distributed systems, data infrastructure, and applied machine learning.
   </p>
   <p>
-  My background includes building core system components such as consensus protocols, privacy-preserving networks, and large-scale data pipelines. I previously interned at Amazon and Palantir, where I focused on backend infrastructure and production-level AI features. More broadly, I am motivated by the challenge of building reliable, high-performance systems for large-scale data processing and distributed computing.
+   Some of my past projects include implementing consensus protocols, privacy-preserving networks, and data pipelines. I previously interned at Amazon and AutoNation, where I focused on backend infrastructure and production-level AI features, and I'm currently interning at Databricks for Summer 2026.
   </p>
 
  </div>

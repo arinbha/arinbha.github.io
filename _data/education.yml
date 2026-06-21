@@ -1,11 +1,11 @@
 - school: Carnegie Mellon University
   degree: B.S. in Computer Science
   logo: "/assets/images/cmu.png"
-  date: Aug 2023 – May 2027
+  date: Aug 2023 – Dec 2026
   bullets:
     - Concentration in Computer Systems
     - "GPA: 4.0/4.0, Dean’s List with High Honors"
-    - "Coursework: Compiler Design, Distributed Systems, Machine Learning, Computer Networks, Theoretical Computer Science"
+    - "Coursework: Compiler Design, Distributed Systems, Computer Networks, Machine Learning, Algorithm Design and Analysis"
     - "Activities: Science Olympiad President, Carnegie Mellon Racing, Quant Club"
 
 - school: Hopkins School
