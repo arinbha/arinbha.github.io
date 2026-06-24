@@ -3,29 +3,29 @@
   date: "May 2026 – Present"
   logo: "/assets/images/databricks.jpg"
   bullets:
-    - "Building a performance modeling tool for Dicer, Databricks’ auto-sharding service."
+    - "Building a performance modeling tool for Dicer, Databricks' auto-sharding service, that replays real production workloads to benchmark and iterate on sharding algorithms offline, eliminating production risk"
 - company: "Amazon"
-  role: "Software Developer Engineer Intern"
+  role: "Software Development Engineer Intern"
   date: "May 2025 – Aug 2025"
   logo: "/assets/images/amazon_logo.jpg"
   bullets:
-    - "Built LLM-driven feature extraction systems to identify rare, high-impact product attributes from 10B+ titles, improving Amazon search relevance."
-    - "Engineered automated AWS pipelines to process and extract data from 100B+ SKUs, improving scalability and reliability of large-scale data workflows."
+    - "Built LLM-driven feature extraction systems to identify rare, predictive signals from unstructured product titles across 10B+ products, leveraging concept recognition and TF-IDF for high-signal attribute discovery"
+    - "Engineered automated AWS pipelines to process and extract signals from 100B+ SKUs, improving scalability and reliability of large-scale data workflows"
   #TODO: Add Tech Stack
 - company: "Palantir"
   role: "Palantir Launch Intern"
   date: "Mar 2025 – Mar 2025"
   logo: "/assets/images/palantir_logo.jpg"
   bullets:
-    - "Chosen as 1 of 40 students nationwide for Palantir's highly-selective Launch program, focusing on real-world applications of data engineering and AI."
-    - "Developed a customizable travel-planning application on Palantir Foundry and AI Platform, generating optimized itineraries for 100+ global cities."
+    - "Chosen as 1 of 40 students nationwide for Palantir's highly-selective Launch program, focusing on real-world applications of data engineering and AI"
+    - "Developed a customizable travel-planning application on Palantir Foundry and AI Platform, generating optimized itineraries for 100+ global cities"
 - company: "AutoNation"
   role: "AI Developer Intern"
   date: "Jun 2024 – Aug 2024"
   logo: "/assets/images/autonation_logo.jpg"
   bullets:
-    - "Engineered advanced search functionality using AWS Bedrock and OpenSearch, enabling vector embeddings and natural language queries for 300K+ car inventory."
-    - "Designed chatbot architecture for customer search tool, partnering with senior engineers to lead a 30% increase in customer engagement."
+    - "Engineered advanced search functionality using AWS Bedrock and OpenSearch, enabling vector embeddings and natural language queries to navigate a 300K+ car inventory, reducing response time by 25% for better user experience"
+    - "Designed chatbot architecture for customer search tool, partnering with senior engineers to lead a 30% increase in customer engagement"
 - company: "Carnegie Mellon School of Computer Science"
   role: "Teaching Assistant"
   date: "Jan 2024 – Present"
@@ -34,4 +34,4 @@
      - > 
       Led grading sessions and collaborated with over 40 other teaching assistants to host weekly lab sessions and
       office hours for two classes, introductory data structures and distributed systems.
-     - "Facilitated supplemental review sessions and provided dedicated one-on-one support during office hours for over 500 students a semester."
+     - "Facilitated supplemental review sessions and provided dedicated one-on-one support during office hours for over 500 students a semester"

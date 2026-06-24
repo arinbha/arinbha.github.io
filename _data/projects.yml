@@ -4,8 +4,8 @@
   bullets:
     - "Built a compiler for C0, a memory-safe subset of C, in OCaml targeting LLVM and x86 assembly"
     - > 
-      Implemented advanced optimizations such as Global Value Numbering (GVN),
-      Function Inlining, Aggressive Dead Code Elimination (ADCE), Sparse Conditional Constant Propagation (SCCP), and Tail Call Optimization (TCO), achieving speedup on par with GCC O1
+      Implemented advanced optimizations such as Global Value Numbering (GVN), Function Inlining, Aggressive Dead Code
+      Elimination (ADCE), and Sparse Conditional Constant Propagation (SCCP), achieving speedup on par with GCC -O1
 - name: "Distributed Bitcoin Miner"
   logo: "/assets/images/bitcoin.png"
   bullets:
